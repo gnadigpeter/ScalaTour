@@ -1,12 +1,11 @@
-import FunWithScala.Classes.Point
+import FunWithScala.Classes.{Point, Point2}
 
 @main
 def main(): Unit = {
   println("Hello world!")
-  //  FunWithScala.BasicFun
-  //  FunWithScala.UnifiedTypes
-  FunWithScala.Classes.PlayGround
-
+//  FunWithScala.BasicFun
+//  FunWithScala.UnifiedTypes
+//  FunWithScala.Classes.PlayGround
 
 
 }
