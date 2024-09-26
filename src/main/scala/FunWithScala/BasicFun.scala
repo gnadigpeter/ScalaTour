@@ -1,7 +1,6 @@
 package FunWithScala
 
-import Classes.{CustomizableGreeter, DefaultGreeter, Greeter1, Point}
-import Objects.IdFactory
+import FunWithScala.BasicFun.{CustomizableGreeter, DefaultGreeter, Greeter1}
 
 object BasicFun:
   println("Hello BasicFun!")
@@ -56,8 +55,26 @@ object BasicFun:
 
   println(getSquareString(2.5)) // 6.25
 
+  class Greeter1(prefix: String, suffix: String) {
+    def greet(name: String): Unit =
+      println(prefix + name + suffix)
+  }
+
+  trait Greeter:
+    def greet(name: String): Unit =
+      println("Hello, " + name + "!")
+
+  class DefaultGreeter extends Greeter
+
+  class CustomizableGreeter(prefix: String, postfix: String) extends Greeter:
+    override def greet(name: String): Unit =
+      println(prefix + name + postfix)
+
+  
   val greeter1 = Greeter1("Hello, ", "!!!")
   greeter1.greet("Scala dev")
+
+  case class Point(x: Int, y: Int)
 
   val point = Point(1, 2)
   val anotherPoint = Point(1, 2)
@@ -73,7 +90,14 @@ object BasicFun:
     println(s"$point and $yetAnotherPoint are the same.")
   else
     println(s"$point and $yetAnotherPoint are different.")
-  // ==> Point(1,2) and Point(2,2) are different.
+// ==> Point(1,2) and Point(2,2) are different.
+
+object IdFactory:
+  private var counter = 0
+
+  def create(): Int =
+    counter += 1
+    counter
 
 
   val newId: Int = IdFactory.create()
