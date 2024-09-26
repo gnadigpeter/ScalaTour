@@ -1,0 +1,5 @@
+package FunWithScala
+
+object Classes{
+
+}
