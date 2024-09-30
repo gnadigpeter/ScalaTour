@@ -11,6 +11,7 @@ def main(): Unit = {
   //  FunWithScala.Tuples.PlayGround
   //  FunWithScala.ClassCompositionWithMixins.PlayGround
   //  FunWithScala.HigherOrderFunctions.PlayGround
+  //  FunWithScala.NestedMethods.PlayGround
 
 
 }
