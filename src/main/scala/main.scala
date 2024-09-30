@@ -13,12 +13,8 @@ def main(): Unit = {
   //  FunWithScala.HigherOrderFunctions.PlayGround
   //  FunWithScala.NestedMethods.PlayGround
   //  FunWithScala.MultipleParameterLists.PlayGround
-
-
-
-
-
-
+  //  FunWithScala.CaseClasses.PlayGround
+  //    FunWithScala.PatternMarching.PlayGround
 
 
 }
