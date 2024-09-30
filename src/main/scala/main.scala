@@ -9,7 +9,7 @@ def main(): Unit = {
   //  FunWithScala.NamedArguments.PlayGround
   //  FunWithScala.Traits.PlayGround
   //  FunWithScala.Tuples.PlayGround
-
+//    FunWithScala.ClassCompositionWithMixins.PlayGround
 
 
 }
