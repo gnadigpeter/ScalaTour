@@ -1,4 +1,3 @@
-import FunWithScala.Classes.{Point, Point2}
 
 @main
 def main(): Unit = {
@@ -6,6 +5,8 @@ def main(): Unit = {
 //  FunWithScala.BasicFun
 //  FunWithScala.UnifiedTypes
 //  FunWithScala.Classes.PlayGround
+//  FunWithScala.DefaultParameterValues.PlayGround
+//  FunWithScala.NamedArguments.PlayGround
 
 
 }
