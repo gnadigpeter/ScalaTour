@@ -15,6 +15,9 @@ def main(): Unit = {
   //  FunWithScala.MultipleParameterLists.PlayGround
   //  FunWithScala.CaseClasses.PlayGround
   //  FunWithScala.PatternMarching.PlayGround
+  //  FunWithScala.SingeltonObjects.PlayGround
+
+
 
 
 }
