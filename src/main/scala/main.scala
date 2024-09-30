@@ -7,6 +7,7 @@ def main(): Unit = {
 //  FunWithScala.Classes.PlayGround
 //  FunWithScala.DefaultParameterValues.PlayGround
 //  FunWithScala.NamedArguments.PlayGround
+//  FunWithScala.Traits.PlayGround
 
 
 }
