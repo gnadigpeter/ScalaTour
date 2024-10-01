@@ -1,5 +1,7 @@
 package FunWithScala.Variances
 
+import scala.collection.mutable.ListBuffer
+
 object PlayGround {
 
   class Foo[+A] // A covariant class
