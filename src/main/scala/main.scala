@@ -21,5 +21,6 @@ def main(): Unit = {
   //  FunWithScala.GenericClasses.PlayGround
   //  FunWithScala.Variances.PlayGround
   //  FunWithScala.UpperTypeBounds.PlayGround
+  //  FunWithScala.LowerTypeBounds.PlayGround
 
 }
