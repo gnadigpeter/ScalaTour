@@ -1,6 +1,3 @@
-
-import scala.jdk.CollectionConverters.*
-
 @main
 def main(): Unit = {
   println("Hello world!")
@@ -23,6 +20,6 @@ def main(): Unit = {
   //  FunWithScala.ForComprehensions.PlayGround
   //  FunWithScala.GenericClasses.PlayGround
   //  FunWithScala.Variances.PlayGround
-
+  //  FunWithScala.UpperTypeBounds.PlayGround
 
 }
