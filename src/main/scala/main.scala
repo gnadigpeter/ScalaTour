@@ -19,6 +19,7 @@ def main(): Unit = {
   //  FunWithScala.RegularExpressionPatterns.PlayGround
   //  FunWithScala.ExtractorObjects.PlayGround
   //  FunWithScala.ForComprehensions.PlayGround
+  //  FunWithScala.GenericClasses.PlayGround
 
 
 }
