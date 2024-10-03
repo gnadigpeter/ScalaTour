@@ -30,6 +30,6 @@ def main(): Unit = {
   //  FunWithScala.ImplicitConversions.PlayGround
   //  FunWithScala.PolymorphicMethods.PlayGround
   //  FunWithScala.TypeInference.PlayGround
-
+  //  FunWithScala.Operators.PlayGround
 
 }
