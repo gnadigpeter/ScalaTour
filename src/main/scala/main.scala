@@ -1,3 +1,5 @@
+import scala.annotation.tailrec
+
 @main
 def main(): Unit = {
   println("Hello world!")
@@ -31,6 +33,8 @@ def main(): Unit = {
   //  FunWithScala.PolymorphicMethods.PlayGround
   //  FunWithScala.TypeInference.PlayGround
   //  FunWithScala.Operators.PlayGround
+  //  FunWithScala.BynameParameters.PlayGround
+  //  FunWithScala.Annotations.PlayGround
 
 
 }
