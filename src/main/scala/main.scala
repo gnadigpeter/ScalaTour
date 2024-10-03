@@ -27,4 +27,6 @@ def main(): Unit = {
   //  FunWithScala.IntersectionTypesCompoundTypes.PlayGround
   //  FunWithScala.Selftype.PlayGround
   //  FunWithScala.ContextualParametersImplicitParameters.PlayGround
+  //  FunWithScala.ImplicitConversions.PlayGround
+
 }
