@@ -29,5 +29,7 @@ def main(): Unit = {
   //  FunWithScala.ContextualParametersImplicitParameters.PlayGround
   //  FunWithScala.ImplicitConversions.PlayGround
   //  FunWithScala.PolymorphicMethods.PlayGround
+  //  FunWithScala.TypeInference.PlayGround
+
 
 }
