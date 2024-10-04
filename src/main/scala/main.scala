@@ -36,5 +36,5 @@ def main(): Unit = {
   //  FunWithScala.BynameParameters.PlayGround
   //  FunWithScala.Annotations.PlayGround
   //  FunWithScala.PackagesAndImports.PlayGround
-
+  FunWithScala.TopLevelDefinitionsinPackages.PlayGround
 }
